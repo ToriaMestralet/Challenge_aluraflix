@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 29px 0 #2271D1;
+    border-top: 4px solid #2271D1;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    height: 40px;
+}
+
+.desarrolladoPor {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2271D1;
+}

@@ -1,0 +1,66 @@
+.banner {
+  position: relative;
+  height: 80vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 18, 51, 0.56);
+  z-index: 1;
+}
+
+.banner-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  z-index: 2;
+  gap: 70px;
+}
+
+.banner-image {
+  width: 647px;
+  height: 333px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.banner-details {
+  width: 45%;
+  text-align: left;
+  padding: 20px;
+}
+
+.banner-title {
+  font-size: 46px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.banner-category{
+  font-size: 48px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin: 0;
+  max-width: fit-content;
+  margin-bottom: 40px;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
